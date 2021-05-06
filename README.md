@@ -9,3 +9,34 @@
 8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
 9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
 
+
+
+##HTML
+Header
+-For Logo and instructions purposes
+Three Images (one for Rock, Paper, Scissors)
+-Why-For user selection(input)
+Submit button
+-Why? To compare user guess and machine choice
+DIV1
+-Why? To display game results
+DIV2
+-Why? Display total number of games played
+
+
+##STATE
+Game State
+-let gamesPlayed = 0
+Reset Game
+-
+
+##EVENTS
+ButtonClick
+-What should happen?
+    -User guess should be captured
+    -Machine Throw should be captured
+    -Total games tallied/Logged
+    -Wins/losses tallies /logged
+Presented to HTML
+
+

@@ -1,7 +1,8 @@
 // import functions and grab DOM elements
 import { getRandomThrow } from './utils.js';
+import { didUserWin } from './utils.js';
 
-//console.log(getRandomThrow())
+console.log(didUserWin('paper', 'paper'))
 
 
 

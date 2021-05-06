@@ -12,23 +12,22 @@
 
 
 ##HTML
-Header
--For Logo and instructions purposes
 Three Images (one for Rock, Paper, Scissors)
 -Why-For user selection(input)
 Submit button
 -Why? To compare user guess and machine choice
 DIV1
--Why? To display game results
+-Why? Games won
 DIV2
--Why? Display total number of games played
+-Why? Games Lost
+DIV3
+-Total Games played
 
 
 ##STATE
-Game State
--let gamesPlayed = 0
-Reset Game
--
+let wins = 0
+let losses = 0
+let draws = 0
 
 ##EVENTS
 ButtonClick
